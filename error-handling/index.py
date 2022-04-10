@@ -8,10 +8,10 @@ def add_three_nums(a, b, c):
         print("add went well!")
 
 
-# a = 1
-# b = 1
-# c = input("please enter a number: ")
-# add_three_nums(a, b, c)
+a = 1
+b = 1
+c = input("please enter a number: ")
+add_three_nums(a, b, c)
 
 try:
     f = open("testfile.txt", "w")
