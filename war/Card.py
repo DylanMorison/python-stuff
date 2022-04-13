@@ -12,9 +12,8 @@ class Card:
         self.value = values[rank]
 
     def __str__(self):
-        return self.rank + " of" + self.suit
+        return self.rank + " of " + self.suit
 
 
 two_hearts = Card("Hearts", "Two")
 three_of_clubs = Card("Clubs","Three")
-print(three_of_clubs)
